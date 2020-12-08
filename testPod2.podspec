@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPod2'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'testPod2'
   s.swift_version    = '5.3'
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'jz709u' => 'ts-jay.zisch@rakuten.com' }
   s.source           = { :git => 'https://github.com/jz709u/testPod2.git', :tag => s.version.to_s }
   s.platform         = :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'testPod2/Classes/**/*'
   
